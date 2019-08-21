@@ -1,0 +1,67 @@
+
+> mweb3-demo-waves@0.1.0 build D:\www\mweb3waves
+> webpack
+
+Hash: c8e054b2cb50f02c817d
+Version: webpack 4.39.2
+Time: 460ms
+Built at: 2019-08-19 13:39:06
+ 1 asset
+Entrypoint main = build.js
+[0] multi ./src/main.js 28 bytes {0} [built]
+[1] ./src/main.js 26 bytes {0} [built]
+    + 1 hidden module
+
+WARNING in configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+
+ERROR in ./src/components/app.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: D:\www\mweb3waves\src\components\app.js: Unexpected token (11:12)
+
+   9 |     render() {
+  10 |         return (
+> 11 |             <div className="container">
+     |             ^
+  12 |             <input className="btn btn-primary" type="submit" value="Alert" onClick={() => {alert("Alert button onClick");}}/>
+  13 |           </div>
+  14 |         )
+    at Parser.raise (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:6325:17)
+    at Parser.unexpected (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:7642:16)
+    at Parser.parseExprAtom (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:8841:20)
+    at Parser.parseExprSubscripts (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:8412:23)
+    at Parser.parseMaybeUnary (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:8392:21)
+    at Parser.parseExprOps (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:8267:23)
+    at Parser.parseMaybeConditional (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:8240:23)
+    at Parser.parseMaybeAssign (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:8187:21)
+    at Parser.parseParenAndDistinguishExpression (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:8978:28)
+    at Parser.parseExprAtom (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:8762:21)
+    at Parser.parseExprSubscripts (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:8412:23)
+    at Parser.parseMaybeUnary (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:8392:21)
+    at Parser.parseExprOps (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:8267:23)
+    at Parser.parseMaybeConditional (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:8240:23)
+    at Parser.parseMaybeAssign (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:8187:21)
+    at Parser.parseExpression (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:8135:23)
+    at Parser.parseReturnStatement (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:10198:28)
+    at Parser.parseStatementContent (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:9877:21)
+    at Parser.parseStatement (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:9829:17)
+    at Parser.parseBlockOrModuleBlockBody (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:10405:25)
+    at Parser.parseBlockBody (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:10392:10)
+    at Parser.parseBlock (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:10376:10)
+    at Parser.parseFunctionBody (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:9424:24)
+    at Parser.parseFunctionBodyAndFinish (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:9394:10)
+    at Parser.parseMethod (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:9348:10)
+    at Parser.pushClassMethod (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:10804:30)
+    at Parser.parseClassMemberWithIsStatic (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:10729:12)
+    at Parser.parseClassMember (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:10668:10)
+    at D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:10623:14
+    at Parser.withTopicForbiddingContext (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:9702:14)
+    at Parser.parseClassBody (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:10600:10)
+    at Parser.parseClass (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:10574:22)
+    at Parser.parseStatementContent (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:9871:21)
+    at Parser.parseStatement (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:9829:17)
+    at Parser.parseBlockOrModuleBlockBody (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:10405:25)
+    at Parser.parseBlockBody (D:\www\mweb3waves\node_modules\@babel\parser\lib\index.js:10392:10)
+ @ ./src/main.js 1:0-26
+ @ multi ./src/main.js
